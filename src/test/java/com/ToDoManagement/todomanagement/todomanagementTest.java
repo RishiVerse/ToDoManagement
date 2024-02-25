@@ -2,11 +2,9 @@ package com.ToDoManagement.todomanagement;
 
 import com.ToDoManagement.todomanagement.entity.Todo;
 import com.ToDoManagement.todomanagement.repository.ToDoRepository;
-import net.bytebuddy.implementation.bytecode.Throw;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.web.ErrorProperties;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.List;

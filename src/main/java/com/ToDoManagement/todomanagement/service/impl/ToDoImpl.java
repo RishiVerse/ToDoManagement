@@ -69,15 +69,9 @@ public class ToDoImpl implements ToDoService {
     public void deleteToDo(Long id) {
         Optional<Todo> todo=toDoRepository.findById(id);
 
-       // ToDodto toDodto=modelMapper.map(todo,ToDodto.class);
-
         Todo todo1=todo.get();
 
-
         toDoRepository.delete(todo1);
-
-
-
 
     }
 
